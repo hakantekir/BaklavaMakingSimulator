@@ -5,7 +5,6 @@
 #include <stdlib.h>
 
 sem_t wholesalerSem;
-sem_t chefSem;
 char *ingredientNames[4] = {"Egg", "Starch", "Walnut", "Sugar"};
 int wholesalerIngredients[4] = {0, 0, 0, 0};
 struct chef {
